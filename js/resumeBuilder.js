@@ -40,7 +40,7 @@ var bio = {
 
 			for (skill in bio.skills)
 			{
-				console.log(bio.skills[skill]);
+				//console.log(bio.skills[skill]);
 				var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
 				$("#skills").append(formattedSkill);
 			}
