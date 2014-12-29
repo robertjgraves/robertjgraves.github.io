@@ -8,7 +8,7 @@ var bio = {
 		"github" : "robertjgraves",
 		"location": "Sacramento, California"},
 
-	"biopic" : "images/rjg.JPG",
+	"biopic" : "images/rjg.jpg",
 	"welcomeMessage" : "Hello! My name is Robert and I'm a web developer and IT project manager. For the past 14 years I have been working in IT by day managing projects and by night developing websites. I'm looking for new opportunities that will allow me to build sites and manage projects during the day. I'm a Certified ScrumMaster and Project Management Professional so I am well versed in both Agile and Traditional project management. On the web development side in the past, I've worked with ColdFusion MX, a bit of ASP.NET and C# and lately have been using Ruby on Rails. I'm currently located in Sacramento, California. If you're looking for a well rounded IT Project Manager and Web Developer please consider me!",
 	"skills" : ["ASP.NET" , "Ruby on Rails", "HTML", "CSS", "JavaScript", "Git", "Windows Servers", "Traditional Project Management", "Scrum"],
 	"display" : function() {
