@@ -113,42 +113,42 @@ var projects = {
 		"title" : "Cub Scout Family Talent Database",
 		"dates" : "October 2014-present",
 		"description" : "Developer for a Cub Scout Family Talent Website Application built on ASP.NET and hosted on Windows Azure.",
-		//"images": ["images/197x148.gif", "images/197x148.gif", "images/197x148.gif"],
+		"images" : [],
 		"location" : "Elk Grove, California"
 	},
 	{
 		"title" : "Lync 2013 Project with High Availability and Enterprise Voice",
 		"dates" : "June 2014-present",
 		"description" : "Project Manager for a Lync 2010 to Lync 2013 project that involved setting up high availability at the main datacenter, a second data center and rolling out enterprise voice to 4 plants.",
-		//"images": ["images/350x150.gif"],
+		"images" : [],
 		"location" : "Sacramento, California"
 	},
 	{
 		"title" : "Lync 2013 Enterprise Voice",
 		"dates" : "June 2014-present",
 		"description" : "Project Manager for a Lync 2013 project deploying enterprise voice replacing an aging Nortel BCM 50 phone system.",
-		//"images": ["images/350x150.gif"],
+		"images" : [],
 		"location" : "Stockton, California"
 	},
 	{
 		"title" : "Lync 2013 Enterprise Voice",
 		"dates" : "June 2014-present",
 		"description" : "Project Manager for a Lync 2013 project deploying enterprise voice replacing an aging Nortel BCM 50 phone system.",
-		//"images": ["images/350x150.gif"],
+		"images" : [],
 		"location" : "Boardman, Oregon"
 	},
 	{
 		"title" : "Lync 2013 Enterprise Voice",
 		"dates" : "June 2014-present",
 		"description" : "Project Manager for a Lync 2013 project deploying enterprise voice replacing an aging Nortel BCM 50 phone system.",
-		//"images": ["images/350x150.gif"],
+		"images" : [],
 		"location" : "Madera, California"
 	},
 	{
 		"title" : "Lync 2013 Enterprise Voice",
 		"dates" : "June 2014-present",
 		"description" : "Project Manager for a Lync 2013 project deploying enterprise voice replacing an aging Nortel BCM 50 phone system.",
-		//"images": ["images/350x150.gif"],
+		"images" : [],
 		"location" : "Burley, Idaho"
 	}
 	],
@@ -161,7 +161,7 @@ var projects = {
 			var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
 			var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
 			
-			var formattedProjectImages ="";
+			var formattedProjectImages = "";
 
 			if(projects.projects[project].images.length > 0){
 			
