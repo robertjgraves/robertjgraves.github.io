@@ -104,6 +104,7 @@ var projects = {
 		"title" : "Exchange High Availability and Disaster Recovery",
 		"dates" : "June 2014-December 2014",
 		"description" : "Project Manager for Exchange 2014 High Availability and Disaster Recovery project migrating enterprise from Exchange 2010. Project included main site high availability configuration and a secondary datacenter with replication between sites.",
+		"images" : [],
 		//"images" : ["images/197x148.gif", "images/197x148.gif"],
 		// added location so places where I've done projects at will show up on the map! 
 		"location" : "Sacramento, California"
